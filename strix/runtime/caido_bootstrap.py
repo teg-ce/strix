@@ -53,7 +53,7 @@ async def _login_as_guest(
             "Content-Type: application/json",
             "-d",
             _LOGIN_AS_GUEST_BODY,
-            f"{container_url}/graphql",
+            f"{container_url.rstrip('/')}/graphql",
             timeout=15,
         )
         if result.ok():
