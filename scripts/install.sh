@@ -3,7 +3,7 @@
 set -euo pipefail
 
 APP=strix
-REPO="usestrix/strix"
+REPO="teg-ce/strix"
 STRIX_IMAGE="ghcr.io/usestrix/strix-sandbox:1.0.0"
 
 MUTED='\033[0;2m'
